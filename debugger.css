@@ -4,10 +4,13 @@ http://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/
 http://www.nealgrosskopf.com/tech/thread.asp?pid=17
 
 .. with some additional tweaking and additions
+
+http://snipplr.com/view/6770/css-diagnostics--highlight-deprecated-html-with-css--more/
+lists the appropriate urls.
 */
 
 /* Empty Attributes */
-img[alt=""],
+/*img[alt=""],*/
 area[alt=""],
 a[href=""],
 a[title=""],
@@ -55,22 +58,22 @@ table[background],
 td[background],
 th[background],
 input[border],
-table[border],
+/*table[border], sometimes needed for older browsers*/
 table[cellpadding],
 table[cellspacing],
 object[codebase],
-img[height],
+/*img[height],*/
 object[height],
 table[height],
 a[name],
-form[name],
+/*form[name],*/
 img[name],
 object[name],
-a[target],
+/*a[target],*/
 area[target],
 td[valign],
 th[valign],
-img[width],
+/*img[width],*/
 object[width],
 table[width] {
   border:5px dotted orange!important;
@@ -174,8 +177,10 @@ div:empty {
 /* Proposed Deprecated Elements */
 input[type="button"],
 input[type="reset"],
+/*
 input[type="submit"],
 input[type="image"],
+*/
 tt,
 big,
 small {
@@ -191,9 +196,8 @@ font,
 isindex,
 menu,
 s,
-i,
+/*i,*/
 b,
-hr,
 strike,
 u,
 listing,
@@ -257,9 +261,9 @@ form > form {
 /* XHTML 1.0 Strict Deprecated Attributes */
 a[name],
 applet[name],
-form[name],
+/*form[name],*/
 frame[name],
-iframe[name],
+/*iframe[name],*/
 img[name],
 map[name] { 
   border:5px dotted lime!important
