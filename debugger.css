@@ -62,7 +62,6 @@ input[border],
 table[cellpadding],
 table[cellspacing],
 object[codebase],
-/*img[height],*/
 object[height],
 table[height],
 a[name],
@@ -179,11 +178,10 @@ input[type="button"],
 input[type="reset"],
 /*
 input[type="submit"],
-input[type="image"],
-*/
-tt,
+input[type="image"], */
 big,
-small {
+tt,
+{
   border:5px solid orange!important;
 }
 
@@ -197,7 +195,7 @@ isindex,
 menu,
 s,
 /*i,*/
-b,
+/*b,*/
 strike,
 u,
 listing,
