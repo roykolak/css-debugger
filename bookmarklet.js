@@ -1,5 +1,5 @@
 (function(){
-	var url = 'https://raw.github.com/BitLucid/css-debugger/bookmarklet/debugger.css';
+	var url = 'http://www.ninjawars.net/css/debugger.css';
 	var link=document.createElement("link");
 	link.setAttribute("rel", "stylesheet");
 	link.setAttribute("type", "text/css");
