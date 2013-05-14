@@ -5,4 +5,5 @@
 	link.setAttribute("type", "text/css");
 	link.setAttribute("href", url);
 	document.getElementsByTagName("head")[0].appendChild(link);
+    alert('Debugging css added to page.');
 })();
