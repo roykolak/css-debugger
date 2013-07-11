@@ -11,6 +11,7 @@ lists the appropriate urls.
 
 /* Empty Attributes */
 /*img[alt=""],*/
+img:not([alt]),
 area[alt=""],
 a[href=""],
 a[title=""],
