@@ -1,5 +1,5 @@
 (function(){
-	var url = 'http://bitlucid.github.io/css-debugger/debugger.css';
+	var url = 'http://roykolak.github.io/css-debugger/debugger.css';
 	var link=document.createElement("link");
 	link.setAttribute("rel", "stylesheet");
 	link.setAttribute("type", "text/css");
